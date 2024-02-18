@@ -1,0 +1,383 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description" content="This is a ecommerce wesite make by ahbab zaman">
+    <title>Ecommerce website</title>
+    <link rel="stylesheet" href="style.css">
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link
+        href="https://fonts.googleapis.com/css2?family=Poppins&family=Roboto&family=Space+Mono&family=Ysabeau+Infant&display=swap"
+        rel="stylesheet">
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.5.1/css/all.min.css"
+        integrity="sha512-DTOQO9RWCH3ppGqcWaEA1BIZOC6xxalwEsw9c2QQeAIftl+Vegovlnee1c9QX4TctnWMn13TZye+giMm8e2LwA=="
+        crossorigin="anonymous" referrerpolicy="no-referrer" />
+
+</head>
+
+<body>
+    <!-- nav-bar starts here -->
+    <nav>
+        <ul class="upper-nav flex-item">
+            <li class="nav-list"><a class="nav-link" href="#">Home</a></li>
+            <li class="nav-list"><a class="nav-link" target="_blank" href="register.html">Register</a></li>
+            <li class="nav-list"><a class="nav-link" target="_blank" href="login.html">Login</a></li>
+            <li class="nav-list"><a class="nav-link" href="index.html">Logout</a></li>
+            <li class="nav-list"><a class="nav-link" target="_blank" href="contact.html">Contact</a></li>
+            <li class="nav-list"><a class="nav-link" target="_blank" href="profile.html">
+                    <img class="profile-img" src="images/tahmim.jpg.png" alt="profile-img">
+                </a></li>
+        </ul>
+
+        <ul class="lower-nav flex-item">
+            <li class="nav-list ln-head"><a class="nav-brand nav-link" href="index.html">Ahbab Express</a></li>
+            <li class="nav-list"><a class="nav-link" href="cart.html">
+                <span>
+                    <i class="fa-solid fa-cart-shopping"></i>
+                </span>
+                Cart 2 products - $124.50
+            </a></li>
+        </ul>
+    </nav>
+    <!-- nav-bar ends here -->
+    <!-- header starts here -->
+    <header>
+        <div class="banner flex-item">
+            <marquee class="banner-title" behavior="" direction="">60% sales going on</marquee>
+            
+            <div class="features flex-item">
+                <article class="f-item flex-center">
+                    <i class="fa-solid fa-truck-fast f-icon"></i>
+                    <h3>Shipping within 7 days</h3>
+                </article>
+                <article class="f-item flex-center">
+                <i class="fa-solid fa-credit-card f-icon"></i>
+                <h3>Safe payment</h3>
+            </article>
+            <article class="f-item flex-center">
+                <i class="fa-brands fa-rocketchat f-icon"></i>
+                <h3>Support 24/7</h3>
+            </article>
+        </div>
+    </div>
+    
+</header>
+<!-- header ends here -->
+
+
+<!-- main starts here -->
+<main>
+
+   <div class="side-bar">
+       <section class="catagory-section">
+          <h3 class="catagory-head">Catagories</h3>
+          <ul class="catagory-ul">
+            <li class="c-list">
+              <label for="phone">
+                <input type="checkbox" name="phone" id="phone" value="phone">
+                Telephone
+              </label>
+            </li>
+            <li class="c-list">
+                <label for="tablets">
+                  <input type="checkbox" name="tablets" id="tablets" value="tablets">
+                  Tablets
+                </label>
+              </li>
+              <li class="c-list">
+                <label for="televisoin">
+                  <input type="checkbox" name="television" id="television" value="television">
+                  Television
+                </label>
+              </li>
+              <li class="c-list">
+                <label for="computer">
+                  <input type="checkbox" name="phone" id="computer" value="computer">
+                  Computer
+                </label>
+              </li>
+              <li class="c-list">
+                <label for="headphones">
+                  <input type="checkbox" name="phone" id="headphones" value="headphones">
+                  Headphones
+                </label>
+              </li>
+              <li class="c-list">
+                <label for="charger">
+                  <input type="checkbox" name="charger" id="charger" value="charger">
+                  Charger
+                </label>
+              </li>
+          </ul>
+       </section>
+
+
+       <section class="price-section">
+        <h3 class="catagory-head">Price Range</h3>
+        <ul class="catagory-ul">
+          <li class="c-list">
+            <label for="price1">
+              <input type="radio" name="price1" id="price1" value="[0-20]">
+              0$-20$
+            </label>
+          </li>
+          <li class="c-list">
+              <label for="price2">
+                <input type="radio" name="price2" id="price2" value="[30-50]">
+                30$-50$
+              </label>
+            </li>
+            <li class="c-list">
+              <label for="price3">
+                <input type="radio" name="price3" id="price3" value="[50-100]">
+                50$-100$
+              </label>
+            </li>
+            <li class="c-list">
+              <label for="price4">
+                <input type="radio" name="price4" id="price4" value="[100-200]">
+                100$-200$
+              </label>
+            </li>
+            <li class="c-list">
+              <label for="price5">
+                <input type="radio" name="price5" id="price5" value="[200-250]">
+                200$-250$
+              </label>
+            </li>
+        </ul>
+     </section>
+
+     <section class="shipping-section">
+        <h3 class="catagory-head">Shipping Option</h3>
+        <ul class="catagory-ul">
+          <li class="c-list">
+            <label for="paid">
+              <input type="checkbox" name="paid" id="paid" value="phone">
+              Paid Shipping
+            </label>
+          </li>
+          <li class="c-list">
+              <label for="free">
+                <input type="checkbox" name="free" id="free" value="free">
+                Free Shipping
+              </label>
+            </li>
+        </ul>
+     </section>
+   </div>
+
+   <div class="main-content">
+    <section class="action flex-item">
+      <div class="action-sort">
+         <label for="sort">Sort By:</label>
+         <select name="sort" id="sort">
+          <option value="sold">Most sold</option>
+          <option value="cheap">Most cheap</option>
+          <option value="arrival">New arrival</option>
+          <option value="price">Reasonable price</option>
+          <option value="discount">Biggest discount</option>
+         </select>
+      </div>
+
+      <div class="action-search">
+        <input type="text" placeholder="Search product">
+        <button class="btn">
+          <i class="fa-solid fa-magnifying-glass"></i>
+        </button>
+      </div>
+    </section>
+   
+<!-- product section starts here -->
+
+  <section class="products">
+
+    <article class="product card">
+      <div class="badge">
+        <span>5 in stock</span>
+        <hr class="line">
+        <span>3 sold</span>
+      </div>
+      <img class="product-img" src="images/headphone.jpeg" alt="">
+      <div class="product-body">
+        <h3 class="product-name">Sony V-4 Headphone</h3>
+        <p>
+          <span class="dot green"></span>
+          <span class="dot red"></span>
+          <span class="dot black"></span>
+        </p>
+        <p class="product-desc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio a quasi molestias accusamus laborum.... <a class="learn-more" href="product.html">Learn more</a>
+        </p>
+        <div class="product-price"><h4>Price:66.50$</h4></div>
+        <div class="product-rating"><h4>Rating:4.5/5</h4></div>
+        <button class="btn product-btn">Add To Cart</button>
+      </div>
+    </article>
+
+    <article class="product card">
+      <div class="badge">
+        <span>3 in stock</span>
+        <hr class="line">
+        <span>2 sold</span>
+      </div>
+      <img class="product-img" src="images/sungls.jpg" alt="">
+      <div class="product-body">
+        <h3 class="product-name">Armani Sunglass</h3>
+        <p>
+          <span class="dot green"></span>
+          <span class="dot red"></span>
+          <span class="dot black"></span>
+        </p>
+        <p class="product-desc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio a quasi molestias accusamus laborum.... <a class="learn-more" href="product.html">Learn more</a>
+        </p>
+        <div class="product-price"><h4>Price:40.50$</h4></div>
+        <div class="product-rating"><h4>Rating:4.2/5</h4></div>
+        <button class="btn product-btn">Add To Cart</button>
+      </div>
+    </article>
+
+    <article class="product card">
+      <div class="badge">
+        <span>7 in stock</span>
+        <hr class="line">
+        <span>5 sold</span>
+      </div>
+      <img class="product-img" src="images/ear buds.jpg" alt="">
+      <div class="product-body">
+        <h3 class="product-name">Appla Ear Buds</h3>
+        <p>
+          <span class="dot green"></span>
+          <span class="dot red"></span>
+          <span class="dot black"></span>
+        </p>
+        <p class="product-desc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio a quasi molestias accusamus laborum.... <a class="learn-more" href="product.html">Learn more</a>
+        </p>
+        <div class="product-price"><h4>Price:30.50$</h4></div>
+        <div class="product-rating"><h4>Rating:4.7/5</h4></div>
+        <button class="btn product-btn">Add To Cart</button>
+      </div>
+    </article>
+
+    <article class="product card">
+      <div class="badge">
+        <span>7 in stock</span>
+        <hr class="line">
+        <span>5 sold</span>
+      </div>
+      <img class="product-img" src="images/smart watch.jpeg" alt="">
+      <div class="product-body">
+        <h3 class="product-name">Appla Smart Watch</h3>
+        <p>
+          <span class="dot green"></span>
+          <span class="dot red"></span>
+          <span class="dot black"></span>
+        </p>
+        <p class="product-desc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio a quasi molestias accusamus laborum.... <a class="learn-more" href="product.html">Learn more</a>
+        </p>
+        <div class="product-price"><h4>Price:120.50$</h4></div>
+        <div class="product-rating"><h4>Rating:4.4/5</h4></div>
+        <button class="btn product-btn">Add To Cart</button>
+      </div>
+    </article>
+
+    <article class="product card">
+      <div class="badge">
+        <span>12 in stock</span>
+        <hr class="line">
+        <span>8 sold</span>
+      </div>
+      <img class="product-img" src="images/i phone.jpeg" alt="">
+      <div class="product-body">
+        <h3 class="product-name">I-phone 12 Pro-Max</h3>
+        <p>
+          <span class="dot green"></span>
+          <span class="dot red"></span>
+          <span class="dot black"></span>
+        </p>
+        <p class="product-desc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio a quasi molestias accusamus laborum.... <a class="learn-more" href="product.html">Learn more</a>
+        </p>
+        <div class="product-price"><h4>Price:170.50$</h4></div>
+        <div class="product-rating"><h4>Rating:4.8/5</h4></div>
+        <button class="btn product-btn">Add To Cart</button>
+      </div>
+    </article>
+
+    <article class="product card">
+      <div class="badge">
+        <span>12 in stock</span>
+        <hr class="line">
+        <span>8 sold</span>
+      </div>
+      <img class="product-img" src="images/charger.jpg" alt="">
+      <div class="product-body">
+        <h3 class="product-name">Apple Charger</h3>
+        <p>
+          <span class="dot green"></span>
+          <span class="dot red"></span>
+          <span class="dot black"></span>
+        </p>
+        <p class="product-desc">
+          Lorem ipsum dolor sit amet, consectetur adipisicing elit. Distinctio a quasi molestias accusamus laborum.... <a class="learn-more" href="product.html">Learn more</a>
+        </p>
+        <div class="product-price"><h4>Price:24.50$</h4></div>
+        <div class="product-rating"><h4>Rating:4/5</h4></div>
+        <button class="btn product-btn">Add To Cart</button>
+      </div>
+    </article>
+
+  </section>
+
+  <div class="pagination">
+   <button class="btn page-btn">
+    <i class="fa-solid fa-less-than"></i>
+   </button>
+   <button class="btn page-btn">1</button>
+   <button class="btn page-btn">2</button>
+   <button class="btn page-btn">3</button>
+   <button class="btn page-btn">4</button>
+   <button class="btn page-btn">5</button>
+   <button class="btn page-btn">6</button>
+   <button class="btn page-btn">7</button>
+   <button class="btn page-btn">8</button>
+   <button class="btn page-btn">9</button>
+   <button class="btn page-btn">10</button>
+   <button class="btn page-btn">...</button>
+   <button class="btn page-btn">50</button>
+   
+   <button class="btn page-btn">
+    <i class="fa-solid fa-greater-than"></i>
+   </button>
+  </div>
+
+  <!-- product section ends here -->
+
+
+   </div>
+</main>
+
+<!-- main ends here -->
+
+    <!-- footer starts here -->
+       <footer class="flex-item">
+        <div class="flex-item">
+            <label for="subscribe">Subscribe to Newsletter:</label>
+            <input type="text" name="subscribe" id="subscribe" class="input-subscribe" placeholder="Your email">
+            <button class="btn sub-btn">Subscribe</button>
+        </div>
+        <div>
+            <p>&copy; Copyright to Ahbab Express (2024)</p>
+        </div>
+       </footer>
+
+    <!-- footerends here -->
+</body>
+
+</html>
